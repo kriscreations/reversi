@@ -18,6 +18,8 @@
         <!-- Favicon -->
   <link rel="shortcut icon" href="favicon.ico">
          <!-- Custom styles for this template -->
+    <!-- <link href="js/jquery-ui/jquery-ui-1.10.1.custom.min.css" rel="stylesheet">
+    <link href="css/bootstrap-reset.css" rel="stylesheet"> -->
     <link href="css/custom.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/style-responsive.css" rel="stylesheet" /> 
@@ -31,7 +33,7 @@
             <div class="row">
                   <div class="col-lg-12">
                        <a href="#">
-                        <img alt="Reversi Logo" src="assets\images\logo.png" align="center">
+                        <img alt="Reversi Logo" src="assets/images/logo.png" align="center">
                                     </a>
                         <!--widget end-->
                     </div>
@@ -40,8 +42,7 @@
 </section>
              
    <!--main content start-->
-    <section id="main-content">
-        <section class="wrapper">
+       <div class="container">
         <!-- page start-->
 
         <div class="row">
@@ -50,10 +51,6 @@
                     <header class="panel-heading">
                         <h4>Lobby</h4>
                     </header>
-                    <div class="panel-body">
-                        This is lobby
-                    </div>
-
                 </section>
             </div>
         </div>
@@ -65,12 +62,103 @@
                     </header>
                     <div class="panel-body">
                         <div id ='messages'></div>
+                  
                     </div>
                     
                 </section>
             </div>
+        </div> <!-- row -->
+        <div class="row">
+         <!-- <div class="col-md-6">
+         </div> -->
+         <div class="col-lg-4">
+         </div>
+      
+        <!--chat start-->
+        <div class="col-lg-4">
+        <section class="panel">
+            <header class="panel-heading">
+                CHAT 
+            </header>
+            <div class="panel-body">
+                <div class="chat-conversation">
+                  <!--   <ul class="conversation-list">
+                        <li class="clearfix">
+                            <div class="chat-avatar">
+                                <img src="assets/images/chat-user-thumb.png" alt="male">
+                                <i>10:00</i>
+                            </div>
+                            <div class="conversation-text">
+                                <div class="ctext-wrap">
+                                    <i>John Carry</i>
+                                    <p>
+                                        Hello!
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="clearfix odd">
+                            <div class="chat-avatar">
+                                <img src="assets/images/chat-user-thumb-f.png" alt="female">
+                                <i>10:00</i>
+                            </div>
+                            <div class="conversation-text">
+                                <div class="ctext-wrap">
+                                    <i>Lisa Peterson</i>
+                                    <p>
+                                        Hi, How are you? What about our next meeting?
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="chat-avatar">
+                                <img src="assets/images/chat-user-thumb.png" alt="male">
+                                <i>10:00</i>
+                            </div>
+                            <div class="conversation-text">
+                                <div class="ctext-wrap">
+                                    <i>John Carry</i>
+                                    <p>
+                                        Yeah everything is fine
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="clearfix odd">
+                            <div class="chat-avatar">
+                                <img src="assets/images/chat-user-thumb-f.png" alt="female">
+                                <i>10:00</i>
+                            </div>
+                            <div class="conversation-text">
+                                <div class="ctext-wrap">
+                                    <i>Lisa Peterson</i>
+                                    <p>
+                                        Wow that's great
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul> -->
+                    <div class="row">
+                        <div class="col-xs-9">
+                         <form onsubmit='send_message(); return false;' class="chat-send">
+                            <input class='form-control chat-input' type='text' value='' id='send_message_holder' placeholder='Enter you chat message'/>
+                        </div>
+                        <div class="col-xs-3 chat-send">
+                            <button type="submit" class="btn btn-primary">Send</button>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
         </div>
-
+        <!--chat end-->
+        <div class="col-lg-4">
+         </div> 
+    </div>
+        </div>
 
          <div class="row">
                           <div class="col-lg-12">
@@ -89,8 +177,8 @@
                               </div>                         
             </div> <!-- row -->
         <!-- page end-->
-        </section>
-    </section>
+         </div> <!-- container -->
+      
     <!--main content end-->
 
 
