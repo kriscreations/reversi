@@ -79,12 +79,14 @@
                     </ul> 
                     <div class="row">
                         <div class="col-xs-9">
+                         <div class="form-group">
                          <form onsubmit='send_message(); return false;' class="chat-send">
                             <input class='form-control chat-input' type='text' value='' id='send_message_holder' placeholder='Enter you chat message' autofocus>
                         </div>
                         <div class="col-xs-3 chat-send">
                             <button type="submit" class="btn btn-primary">Send</button>
                         </div>
+                        </div>>
                         </form>
                     </div>
                 </div>
@@ -127,6 +129,8 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.1/socket.io.js" integrity="sha256-fiM0lX3OYzf0FfLBeLqFuCokh+rf1VhI/eanPbzldUM=" crossorigin="anonymous"></script>
  <script src="js/main.js"></script>
+ <!--common script init for all pages-->
+<script src="js/scripts.js"></script>
 
   </body>
 </html>
