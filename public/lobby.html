@@ -27,9 +27,9 @@
         </head>
     <!-- END HEAD -->
 
-   <body class=" full-width text-center login-body">
-    <section id="main-content">
-        <section class=" wrapper">
+   <body class=" full-width">
+    <section id="main-content" class="text-center">
+        <section class="wrapper align-center">
             <div class="row">
                   <div class="col-lg-12">
                        <a href="#">
@@ -48,26 +48,13 @@
         <div class="row">
             <div class="col-sm-12">
                 <section class="panel">
-                    <header class="panel-heading">
+                    <header class="panel-heading text-center">
                         <h4>Lobby</h4>
                     </header>
                 </section>
             </div>
         </div>
-         <div class="row">
-            <div class="col-sm-12">
-                <section class="panel">
-                    <header class="panel-heading">
-                        <h4>Messages</h4>
-                    </header>
-                    <div class="panel-body">
-                        <div id ='messages'></div>
-                  
-                    </div>
-                    
-                </section>
-            </div>
-        </div> <!-- row -->
+
         <div class="row">
          <!-- <div class="col-md-6">
          </div> -->
@@ -82,64 +69,14 @@
             </header>
             <div class="panel-body">
                 <div class="chat-conversation">
-                  <!--   <ul class="conversation-list">
+                <div id ='messages'></div>
+                 <ul class="conversation-list">
                         <li class="clearfix">
-                            <div class="chat-avatar">
-                                <img src="assets/images/chat-user-thumb.png" alt="male">
-                                <i>10:00</i>
-                            </div>
-                            <div class="conversation-text">
-                                <div class="ctext-wrap">
-                                    <i>John Carry</i>
-                                    <p>
-                                        Hello!
-                                    </p>
-                                </div>
-                            </div>
+                           <div id ='messages'></div>
                         </li>
-                        <li class="clearfix odd">
-                            <div class="chat-avatar">
-                                <img src="assets/images/chat-user-thumb-f.png" alt="female">
-                                <i>10:00</i>
-                            </div>
-                            <div class="conversation-text">
-                                <div class="ctext-wrap">
-                                    <i>Lisa Peterson</i>
-                                    <p>
-                                        Hi, How are you? What about our next meeting?
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="clearfix">
-                            <div class="chat-avatar">
-                                <img src="assets/images/chat-user-thumb.png" alt="male">
-                                <i>10:00</i>
-                            </div>
-                            <div class="conversation-text">
-                                <div class="ctext-wrap">
-                                    <i>John Carry</i>
-                                    <p>
-                                        Yeah everything is fine
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="clearfix odd">
-                            <div class="chat-avatar">
-                                <img src="assets/images/chat-user-thumb-f.png" alt="female">
-                                <i>10:00</i>
-                            </div>
-                            <div class="conversation-text">
-                                <div class="ctext-wrap">
-                                    <i>Lisa Peterson</i>
-                                    <p>
-                                        Wow that's great
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                    </ul> -->
+                       
+                        
+                    </ul> 
                     <div class="row">
                         <div class="col-xs-9">
                          <form onsubmit='send_message(); return false;' class="chat-send">
@@ -161,7 +98,7 @@
         </div>
 
          <div class="row">
-                          <div class="col-lg-12">
+                          <div class="col-lg-12 text-center">
                               <div class="row pad-top-btn">
                                   <div class="col-xs-6">
                                      <a href="index.html">

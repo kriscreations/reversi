@@ -35,7 +35,7 @@ socket.on('join_room_response',function(payload){
 		alert(payload.message);
 		return;
 	}
-	$('#messages').append('<p>New user joined the room: '+payload.username+'</p>');
+	$('#messages').append('  <p><b>New user joined the room:</b>   '+payload.username+'</p>');
 });
 
 socket.on('send_message_response',function(payload){
@@ -43,7 +43,7 @@ socket.on('send_message_response',function(payload){
 		alert(payload.message);
 		return;
 	}
-	$('#messages').append('<p><b>'+payload.username+' says:</b> '+payload.message+'</p>');
+	$('#messages').append('<p> <img src="assets/images/avatar.png" width="40" height="40"> </div> <b><i>  '+payload.username+' says: </i></b>  '+payload.message+' </p>');
 });
 
 
