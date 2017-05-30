@@ -63,7 +63,7 @@ socket.on('join_room_response',function(payload){
 		nodeA.addClass('w-100');
 		
 		nodeB.addClass('col-9 text-right');
-		nodeB.append('<h4>'+payload.username+'</h4>');
+		nodeB.append('<h4 style="color:#a5c051; font-weight:bold;">'+payload.username+'</h4>');
 		
 		nodeC.addClass('cold-3 text-left');
 		var buttonC = makeInviteButton();
@@ -85,7 +85,7 @@ socket.on('join_room_response',function(payload){
 
 	
 	/* Manage the message that a new player has joined */
-	var newHTML = '<p>'+payload.username+' just entered the lobby</p>';
+	var newHTML = '<p style="color:#d9ae12;"> <b style="color:#a5c051;">'+payload.username+'</b> just entered the lobby</p>';
 	var newNode = $(newHTML);
 	newNode.hide();
 	$('#messages').append(newNode);
@@ -117,7 +117,7 @@ socket.on('player_disconnected',function(payload){
 	}
 	
 	/* Manage the message that a player has left */
-	var newHTML = '<p>'+payload.username+' has left the lobby</p>';
+	var newHTML = '<p style="color:#fb8e2c;"> <b style="color:#a5c051;">'+payload.username+' </b> has left the lobby</p>';
 	var newNode = $(newHTML);
 	newNode.hide();
 	$('#messages').append(newNode);
@@ -134,7 +134,7 @@ socket.on('send_message_response',function(payload){
 		alert(payload.message);
 		return;
 	}
-	$('#messages').append('<p><b>'+payload.username+' says:</b> '+payload.message+'</p>');
+	$('#messages').append('<p style="color:#d5e4b1;"><b style="color:#68a834;">'+payload.username+' says:  </b>'+payload.message+'</p>');
 });
 
 

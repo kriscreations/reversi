@@ -1,9 +1,26 @@
+     #players{
+    color: #d9ae12;
+    border-color: #eff2f7;
+    font-size: 16px;
+    font-weight: bold;
+
+   
+     }  
+     .username{
+         color: #a5c051;
+     }
+
           * {
                 box-sizing: border-box;
             }
+            h5{
+                font-size: 2.0rem;
+               
+            }
             h4{
-                font-size: 1.25rem;
-                line-height: 1.42857;
+                color: #a5c051;
+                font-size: 1.0rem;
+                line-height: 2.0;
 
             }
            .btn {
@@ -23,10 +40,10 @@
                     vertical-align: middle;
                     white-space: nowrap;
                 }
-                #messages{
-                    color: #449D44;
+               /*#messages{
+                   color: #449D44;
                     background-color: #011917;
-                    padding:8px;
+                    padding:8px;*/
                 }
 .form-control {
     background-color: #fff;
@@ -47,6 +64,7 @@
 .btn-success{
  
      border: 2px solid rgba(1, 37, 34);
+     border-color: #032724;
 
 }
             .btn-primary {
@@ -94,7 +112,7 @@
             background-color:#e0b92f;
             border-color:#e0b92f;
             color: #3b300b;
-            font-weight: 600;
+            font-weight: 400;
                 }            
 
 .btn-info:hover {
@@ -131,17 +149,20 @@
     padding-top: 50px;
 }
                 .panel{
-                     color: #f7f4f2;
-                     background-color: rgba(9, 183, 168, 0.2);
-                     /*background-color: rgba(3, 59, 55, 0.2);*/
+                     /*color: #f7f4f2;
+                     background-color: rgba(9, 183, 168, 0.2);*/
+                     background-color: rgba(3, 39, 36, 2);
                 }
                 .panel-body {
                 padding: 15px;
                 }
 .panel-heading {
+
+    font-family: 'Anton', sans-serif;
+    color: #d9ae12;
     border-color: #eff2f7;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 700;
     padding: 15px;
     text-transform: uppercase;
 }
