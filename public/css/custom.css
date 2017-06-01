@@ -65,33 +65,28 @@
  
      border: 2px solid rgba(1, 37, 34);
      border-color: #032724;
+     color: #fff;
+     font-weight: 600;
+    padding: 10px 14px;
 
 }
-            .btn-primary {
+ .btn-invite {
+            background-color: #af52a3;
+            border-color: #a54b99;
+            color: #fff;
+            font-weight: 600;
+            padding: 10px 14px;
+            
+                }
+.btn-primary {
             background-color: #e86a0f;
             border-color: #e86a0f;
             color: #fff;
             font-weight: 600;
             padding: 10px 14px;
-            /*animation: bounce 1s infinite alternate;
-           -webkit-animation: bounce 1s infinite alternate;*/
+            
                 }
-               /* @keyframes bounce {
-                  from {
-                    transform: translateY(0px);
-                  }
-                  to {
-                    transform: translateY(-15px);
-                  }
-                }
-                @-webkit-keyframes bounce {
-                  from {
-                    transform: translateY(0px);
-                  }
-                  to {
-                    transform: translateY(-15px);
-                  }
-                }*/
+        
  .btn-primary:hover {
             background-color: #e57829;
             border-color: #da6e20;
